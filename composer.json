@@ -1,0 +1,21 @@
+{
+  "name": "misterliu/tp5-auth",
+  "description": "This is a Auth class library based on the ThinkPHP5 framework",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "misterliu",
+      "email": "349154857@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "think\\": "src/"
+    }
+  }
+}
