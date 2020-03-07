@@ -90,5 +90,13 @@ return [
     
     condition字段是规则条件，默认为空 表示没有附加条件
     例：{points}<100 这里 {points} 表示 think_members 表 中字段 points 的值。
+    
+#备注
+    tp5.1需根据文档作相应更改 如:use think\Facade\Config;配置文件配置参考文档做相应调整
+    use think\Config;
+    use think\Db;
+    use think\Loader;
+    use think\Request;
+    use think\Session;
 
 
